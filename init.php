@@ -1,7 +1,7 @@
 <?php
 
 $pluginContainer = ClassRegistry::getObject('PluginContainer');
-$pluginContainer->installed('cc_comment_only','0.1');
+$pluginContainer->installed('cc_comment_only','0.1.0');
 
 $hookContainer = ClassRegistry::getObject('HookContainer');
 $hookContainer->registerElementHook(
